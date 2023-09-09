@@ -1,9 +1,14 @@
-import MyStack from "../model/MyStack"
+import Stack from "../model/Stack"
 
+describe('Livro Crashmanship Limpo', () => {
 
-describe('Typescript', () => {
+    const stack = new Stack()
+
     test('nothing', () => {
-        const mystack = new MyStack()
-        expect(mystack.isEmpty()).toBe(true)
+        expect(stack.isEmpty()).toEqual(true)
+    })
+
+    test('after one push is not empty', () => {
+        expect(stack.push()).toEqual(stack.isEmpty())
     })
 })
