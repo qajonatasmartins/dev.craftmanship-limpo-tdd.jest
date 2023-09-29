@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "watch": "jest --watchAll"
   },
   "author": "Jonatas Faria",
   "license": "ISC",

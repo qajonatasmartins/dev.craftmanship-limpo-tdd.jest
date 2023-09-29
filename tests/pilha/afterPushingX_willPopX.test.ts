@@ -1,6 +1,7 @@
-import Stack from "../model/Stack"
+import { describeName } from "../../data/describe.data"
+import Stack from "../../model/Stack"
 import { assert } from 'chai'
-describe('Livro Crashmanship Limpo', () => {
+describe(describeName.stack, () => {
 
     test('afterPushingX_willPopX', () => {
         const stack = new Stack()
